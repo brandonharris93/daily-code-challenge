@@ -1,3 +1,7 @@
+'''
+Daily problem about skipping stairs
+'''
+
 def recursive_stairs(step_sizes,num_steps,cache):
     if num_steps in cache:
         return cache[num_steps]
